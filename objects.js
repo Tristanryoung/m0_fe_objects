@@ -33,25 +33,31 @@ console.log(foods.beef)
 
 
 // Part 2: Email
-
-
-
 // Think about all the pieces of information associated with one single email in your inbox.
 // It has a sender, a subject, ...
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+email = {
+  sender: "David",
+  recipient: "Tristan",
+  subject: "Coding Advice",
+  timeStamp: "8:37 AM January 11, 2023",
+  Message: "Here are some links to helpful coding practice websites"
+}
+
 // Write code that logs your email object to the terminal.
+console.log(email)
 
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email))
 
 
 
